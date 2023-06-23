@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejemplo de Formulario</title>
+    </head>
+
+    <body>
+        <h1>Formularios de prueba</h1>
+        <!--Para crear el formulario utilizamos <form> y colocaremos todo lo que se necesita dentro de el-->
+        <form>
+            <!--Se utiliza la etiqueta <label> para indicar los campos que van en nuestro formulario-->
+            <label for="nombre">Nombre: </label>
+            <!--Después colocaremos el campo donde almacenaremos el dato con <input> la etiqueta "type" servira para 
+            indicar el tipo, la etiqueta "id" sera el identificador de este-->
+            <input type="text" id="nombre" placeholder="Escribe tu nombre aquí">
+            <!--Dentro de nuestro input podremos colocar una etiqueta llamada "placeholder" la cual nos servira
+            para mostrar un texto pero este "desaparecera" cuando ingresemos los datos que se requieran-->
+            <br><br>
+            <textarea id="masDatos"></textarea>
+            <!--Para poner mas datos se utiliza el <textarea>, puede servir como cuando vemos un recuadro de otros, 
+            para especificar mas las cosas, etc. -->
+            <br>
+            <input type="radio" name="genero" value="masculino">Masculino
+            <br>
+            <input type="radio" name="genero" value="femenino">Femenino2
+            <!--Un <input> de tipo "radio" nos permitira crear esas opciones donde seleccionas un "circulo" la respuesta
+            y "name" sera el identificador de este, y "value" seria el valor que se pasa al documento que recibe los
+            los datos -->
+
+
+            
+        </form>
+    </body>
+</html>
